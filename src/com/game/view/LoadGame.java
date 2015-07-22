@@ -33,7 +33,11 @@ public class LoadGame {
         switch(option) {
          
             case '1': //[SLOT ONE] LOAD SAVED GAME...
-                
+            
+                URL LoadSoundUrl = new URL("https://www.freesound.org/people/Robinhood76/sounds/316715/");
+                AudioClip LoadSound = Applet.newAudioClip(LoadSoundUrl);
+                LoadSound.play();
+
                 System.out.println("Loading Slot One... ... ...");
                 return;
                 
