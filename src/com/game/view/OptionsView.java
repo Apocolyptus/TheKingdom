@@ -5,18 +5,6 @@ import java.util.Scanner;
 public class OptionsView {
     Scanner user_input = new Scanner(System.in);
     
-    /*public OptionsMenuView() {
-        super("\n"
-            + "\n---------------------------------------"
-            + "\n|              Options                |"
-            + "\n---------------------------------------"
-            + "\n1 - Fullscreen                        |"
-            + "\n2 - Sound                             |"
-            + "\n3 - Color                             |"
-            + "\nq - Back to Main Menu                 |"
-            + "\n---------------------------------------");
-    }*/
-    
     private final String MENU = "\n"
             + "\n\t---------------------------------------"
             + "\n\t|              Options                |"
@@ -47,6 +35,11 @@ public class OptionsView {
         switch(option) {
          
             case '1': //MENU OPTION [1]:: FULLSCREEN
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+
                 
                 System.out.println("The screen is now in a very tiny window!");
                 return;
