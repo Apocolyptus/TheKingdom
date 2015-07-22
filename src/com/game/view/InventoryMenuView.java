@@ -38,6 +38,10 @@ public class InventoryMenuView extends View {
                 
                 if (inventoryList[BREAD].getActualAmount() == 0) {
                     
+                    URL InventrySoundUrl = new URL("https://www.freesound.org/people/modularsamples/sounds/289866/");
+                    AudioClip InventorySound = Applet.newAudioClip(InventorySoundUrl);
+                    InventorySound.play();
+                    
                     System.out.println("\n\tYou don't have enough experience to buy this.");
                     
                     break;
@@ -52,6 +56,10 @@ public class InventoryMenuView extends View {
             case "2":
                 
                 if (inventoryList[CHICKEN].getActualAmount() == 0) {
+                    
+                    URL InventrySoundUrl = new URL("https://www.freesound.org/people/modularsamples/sounds/289866/");
+                    AudioClip InventorySound = Applet.newAudioClip(InventorySoundUrl);
+                    InventorySound.play();
                     
                     System.out.println("\n\tYou don't have enough experience to buy this.");
                     
@@ -68,6 +76,10 @@ public class InventoryMenuView extends View {
                 
                 if (inventoryList[POTION].getActualAmount() == 0) {
                     
+                    URL InventrySoundUrl = new URL("https://www.freesound.org/people/modularsamples/sounds/289866/");
+                    AudioClip InventorySound = Applet.newAudioClip(InventorySoundUrl);
+                    InventorySound.play();
+                    
                     System.out.println("\n\tYou don't have enough experience to buy this.");
                     
                     break;
@@ -82,6 +94,10 @@ public class InventoryMenuView extends View {
             case "4":
                 
                 if (inventoryList[LIFE].getActualAmount() == 0) {
+                    
+                    URL InventrySoundUrl = new URL("https://www.freesound.org/people/modularsamples/sounds/289866/");
+                    AudioClip InventorySound = Applet.newAudioClip(InventorySoundUrl);
+                    InventorySound.play();
                     
                     System.out.println("\n\tYou don't have enough experience to buy this.");
                     
