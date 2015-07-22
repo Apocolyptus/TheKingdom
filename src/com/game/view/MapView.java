@@ -1,3 +1,4 @@
+// Java Collections - This is for the MAP, which I aptly named MapView
 package com.game.view;
 
 import com.game.KingdomGame;
