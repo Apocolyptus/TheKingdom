@@ -43,6 +43,10 @@ public class LoadGame {
                 
             case 'q': //GO BACK TO MENU
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 MenuView Menu = new MenuView();
                 Menu.display();
                 return;
