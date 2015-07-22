@@ -30,40 +30,72 @@ public class GameMenuView extends View {
         switch (option) {
             case '1': //Go to the Kingdom
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 this.displayKingdom();
                 break;
                 
             case '2': //Go to the General Store
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 this.displayGeneralStore();
                 break;
                 
             case '3': //Go to the Icy Caves
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 this.displayDungeon1();
                 break;
                 
             case '4': //Go to the Fiery Depths
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 this.displayDungeon2();
                 break;
                 
             case '5': //Go to the Spooky Hollow
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 this.displayDungeon3();
                 return;
                 
             case '6': //Inventory
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 this.displayInventory();
                 return;
   
             case 's': //Save Game
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 System.out.println("Game Saved!");
                 return;
                 
             case 'q': //Exit to Menu
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 this.displayMenu();
                 return;
