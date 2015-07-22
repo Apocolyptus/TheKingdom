@@ -22,30 +22,54 @@ public class MenuView extends View {
         switch (option) {
             case '1': //create and start a new game
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 startNewGame();
                 break;
                 
             case '2': //load an existing game
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 startExistingGame();
                 break;
                 
             case '3': //display the options menu
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 displayOptionsMenu();
                 break;
                 
             case '4': //display the help menu
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 displayHelpMenu();
                 break;
                 
             case '5': //display the credits
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 displayCreditsMenu();
                 break;
                 
             case 'q': //exit the game
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 exitGame();
                 return;
