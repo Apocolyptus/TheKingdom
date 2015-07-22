@@ -39,23 +39,34 @@ public class OptionsView {
                 URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
                 AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
                 OptionClickSound.play();
-
                 
                 System.out.println("The screen is now in a very tiny window!");
                 return;
                 
             case '2': //MENU OPTION [2]:: SOUND
                 
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
+                
                 System.out.println("The sound is now off!");
                 return;
                 
             case '3': //MENU OPTION [3]:: COLOR
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 System.out.println("You've turned off the color, "
                                  + "\nnow it's all black and white!");
                 return;
                 
             case 'q': //MENU OPTION [4]:: GO BACK TO MAIN MENU
+                
+                URL OptionClickSoundUrl = new URL("https://www.freesound.org/people/annabloom/sounds/219068/");
+                AudioClip OptionClickSound = Applet.newAudioClip(OptionClickSoundUrl);
+                OptionClickSound.play();
                 
                 MenuView Menu = new MenuView();
                 Menu.display();
