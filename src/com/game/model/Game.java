@@ -1,7 +1,9 @@
 package com.game.model;
 
 import java.io.Serializable;
+import java.util.*;
 import java.util.Objects;
+import java.util.stream.*;
 
 public class Game implements Serializable{
 
@@ -106,6 +108,17 @@ public class Game implements Serializable{
             return false;
         }
         return true;
+    }
+    
+    public class duplicatedWords {
+        public static void main(String[] args) {
+            Set<String> distinctWords = Arrays.asList(args).stream()
+                    .collect(Collectors.toSet());
+            System.out.println(distinctWords.size()+
+                                " distinct words: " +
+                                distinctWords);
+        }
+        
     }
 
 }
